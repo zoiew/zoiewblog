@@ -1,0 +1,70 @@
+/*--------------------------------css语句~商品列表页面-------------------------------------------------*/
+
+
+/*----------------------------------main中版面设置---------------------------------------------------------*/
+.detailWrap{width:100%;background:#f1f1f1;}
+.detailBanner{width:100%;height:682px;background:#f1f1f1;margin-bottom:20px;}
+.listIndex{width:1180px;height:40px;padding-left: 10px;line-height:40px;margin:0 auto;}
+.listIndex a:hover{color:#db3962;}
+.productDetail{width:1180px;height:627px;margin:0 auto;padding-top:15px;border:1px solid #ccc;border-top:2px solid #ffc0c1;background:#fff;}
+.productDetail .mangifyLeft{width:503px;height:582px;margin:0 auto;padding:15px 0 0 35px;float:left;border-right:1px solid #ccc;}
+/*#preview img{width:420px;height:420px;}*/
+/*图片放大镜样式*/
+.jqzoom{float:left;border:none;position:relative;padding:0px;cursor:pointer;margin:0px;display:block;}
+.zoomdiv{z-index:100;position:absolute;top:0px;left:0px;width:350px;height:350px;background:#ffffff;border:1px solid #CCCCCC;display:none;text-align:center;overflow:hidden;}
+.jqZoomPup{z-index:10;visibility:hidden;position:absolute;top:0px;left:0px;width:20px;height:20px;border:1px solid #aaa;background:#ffffff;opacity: 0.5;-moz-opacity: 0.5;-khtml-opacity: 0.5;filter: alpha(Opacity=50);}
+
+/*图片小图预览列表*/
+.spec-preview{width:350px;height:350px;border:1px solid #DFDFDF;}
+.spec-scroll{clear:both;margin-top:5px;width:352px;}
+.spec-scroll .prev{float:left;margin-right:4px;}
+.spec-scroll .next{float:right;}
+.spec-scroll .prev,.spec-scroll .next{display:block;font-family:"宋体";text-align:center;width:10px;height:54px; line-height:54px;border:1px solid #CCC;background:#EBEBEB;cursor:pointer;text-decoration:none;}
+.spec-scroll .items{float:left;position:relative;width:322px;height:56px;overflow:hidden;}
+.spec-scroll .items ul{position:absolute;width:999999px;height:56px;}
+.spec-scroll .items ul li{float:left;width:64px;text-align:center;}
+.spec-scroll .items ul li img{border:1px solid #CCC;padding:2px;width:50px;height:50px;}
+.spec-scroll .items ul li img:hover{border:2px solid #FF6600;padding:1px;}
+/*--------------------------------右侧文字说明区域--------------------------------------------*/
+.productDetail .mangifyRight{width:470px;height:624px;margin:0 auto;float:right;margin-right:90px;}
+.productDetail .mangifyRight p,h3.mangigyTitle,.chose,.size,.sculptor{height:38px;}
+.productDetail .mangigyTitle b{color:#000;font-weight:bold;}
+.productDetail p em{color:#db3962;font-weight:bold;}
+.productDetail p i{color:#666;text-decoration:line-through;}---
+.productDetail .chose, .productDetail .size{margin-left:20px;}
+.productDetail .chose a{color:#db3962;margin-left:10px;} 
+.productDetail .remark{padding-left:15px;} 
+.productDetail .kefu{color:#db3962;}
+
+/*添加收藏的按钮,加入购物车按钮;*/
+#submitCart{padding:20px 0;border-top:1px dotted #1C1919;}
+#addCart{width:227px;height:39px;background:url(img/addCart.png) no-repeat;margin-right:20px;}
+#addFavour{width:126px;height:42px;background:url(img/addfavor.png) no-repeat;}
+
+
+
+.detailMain{width:1180px;min-height: 200px;overflow:hidden;margin:0 auto;padding-top:10px}
+/*左侧边栏*/
+.listArea{width:1180px;}
+.sidebar{width:242px;height:2760px;float:left;}
+.itemWrap{border:1px solid #333;margin-bottom:20px;}
+.sidebar  h3{height:36px;line-height:36px;background:url(../img/sbbg.jpg) ;font-size: 14px;padding-left: 10px;}
+.sidebar  .bfb{color:#db3962;}
+.sidebar .type p{height:38px;line-height:38px;background:url(../img/plus.jpg) no-repeat left ;font-size: 16px;padding-left: 22px;}
+.sidebar  a:hover{color:#db3962;}
+.type{padding:13px 0 32px 42px;background:url(../img/shoppingBg.jpg) repeat-x top;}
+.book{width:205px;height:102px;background: #fafafa;}
+.book li{float:left;width:96px;height:30px;line-height:30px;text-align: center;}
+.sidebar .hot p{height:38px;line-height:38px;font-size: 16px;text-align: center;background:#fff;}
+.sidebar .hot p span{color:#db3962;}
+.sidebar .pic{border-bottom:1px solid #999;border-right:1px solid #999;width: 240px;background:#fff;}
+.sidebar .pic img{width:200px;height:200px;}
+.systemshow img{margin:10px 0;}
+
+/*右侧商品信息栏*/
+.pInfor{width:700px;float:right; background:#fff;padding:36px 96px  0 100px;background:#fff;}
+.pInfor .certificate{width:700px;}
+.pInfor .professional{width:700px;}
+.pInfor  h4{width:670px;height:56px;line-height:56px;padding-left:30px;background:url(img/cerFav.jpg) no-repeat;border-bottom:1px solid #ccc;}
+.pInfor .description{width:670px;height:70px;line-height:30px;text-indent: 20px;margin-top:10px;}
+/*------------------------------------end-------------------------------------------------------*/

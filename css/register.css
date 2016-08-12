@@ -1,0 +1,48 @@
+/*--------------------------------css语句~注册页面-------------------------------------------------*/
+/*----------------------------------登陆框设置---------------------------------------------------------*/
+.registerWrap{width:100%;height:610px;background:url(../img/reg.jpg) no-repeat -300px 0;}
+.registerArea{width:400px;height:516px;float:right;position:absolute;top:240px;right:130px;}
+.registerArea h3{height:40px;line-height:40px;font-size:14px;text-align:right;padding-right:5px;margin-bottom:36px;}
+.registerArea input{height:30px;}
+.registerArea p{height:30px;margin-bottom:25px;}
+.registerArea .last{height:30px;line-height:20px;margin-bottom:0px;}
+.registerArea .last span{height:30px;line-height:30px;float:right;margin-right:50px}
+#mobieNum{width:150px;margin-left:153px;}
+#checkCode,#checkMsg{width:80px;margin-left:153px;}
+/*----------验证码生成--------*/
+.checkCode span, .checkCode b{float:right;width:60px;height:30px;line-height:30px;}
+.checkCode b{margin-right:42px;background:rgba(216,224,224,0.2)}
+#userPassword,#checkPassword{width:160px;margin-left:153px;}
+#confirm,#regBtn{margin-left:60px;margin-bottom:0;}
+#regBtn{background:url(../img/regBtn.jpg) no-repeat;width:277px;height:32px;cursor: pointer;}
+#getCheckCode{margin-left:20px;background:url(../img/btnBg.jpg) 0 3px repeat-x;}
+
+/*----------用于验证的隐藏p--------------------*/
+.registerArea .min_bto_p1{width:300px;height:20px;position:absolute;left:60px;top:55px;color:#E13A68;}
+.registerArea .min_bto_p2{width:300px;height:20px;position:absolute;left:60px;top:110px;color:#E13A68;}
+.registerArea .min_bto_p3{width:300px;height:20px;position:absolute;left:60px;top:165px;color:#E13A68;}
+.registerArea .min_bto_p4{width:300px;height:20px;position:absolute;left:60px;top:220px;color:#E13A68;}
+.registerArea .min_bto_p5{width:300px;height:20px;position:absolute;left:60px;top:275px;color:#E13A68;}
+	
+
+
+
+
+
+
+
+
+
+/*----------------------------------登陆方式设置---------------------------------------------------------*/
+.loginPath{width:340px;height:49px;margin-top:40px;padding:15px 0 0 60px;}
+.loginPath img{margin-left:30px;}
+
+
+
+
+
+
+
+
+
+

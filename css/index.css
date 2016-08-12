@@ -1,0 +1,61 @@
+/*index 其余各部分*/
+.item,.search,.ring,.xz,.lover,.shopNum,.baike{margin:0 auto;}
+/*-------------------------------------banner----------------------------------------*/
+.banner{width:100%;height:420px;margin-bottom:20px;}
+.bannerList{height:420px;overflow:hidden;}
+.bannerList li{width:100%;height:420px;position:relative;}
+.bannerList img{width:100%height:420px;position:absolute;left:-18%;}
+
+/*-------------------------------------main----------------------------------------*/
+.main{width:100%;min-height:100px;}
+.main .item{width:1180px;height:212px;text-align:center;}
+.item .product{width:312px;height:200px;float:left;padding:5px;border:1px solid #ddd;}
+.item .activity{width:500px;height:200px;float:left;padding:5px;border:1px solid #ddd;margin-left:15px;}
+.item .operation{width:312px;height:200px;float:right;padding:5px;border:1px solid #ddd;}
+.search{width:1150px;height:120px;background:#f9f9f9;padding:22px 15px;margin-top:15px;}
+.search a img{margin-right:10px;}
+.search .lzsearch{float:right;width:540px;height:80px;}
+.search .lzsearch input{width:44px;height:20px;border:1px solid #abadb3;margin:0 8px;}
+.search .lzsearch b{background:#e7e7e7;font-weight:bold;float:left;width:45px;height:33px;line-height:33px;text-align:center;}
+.search .lzsearch .feature{background:#f9f9f9;width:214px;height:30px;line-height:30px;border:1px solid #dcdcdc;margin:0 0 15px 12px;float:left;}
+#long1,#long2{width:296px;}
+.search .lzsearch .feature img{width:30px;height:20px;margin:5px 5px;}
+#long1 img{margin:5px 2px;}
+#searchBtn{width:86px;height:34px;background:#5f5f5f;margin:0 0 0 354px;border-radius:3px;}
+
+/*-------------------------------------ring product----------------------------------------*/
+.ring{width:1170px;height:415px;padding:5px;margin-top:15px;border:1px solid #ccc;}
+.ringType{float:left;width:310px;height:410px;}
+.typelist{width:160px;height:123px;line-height:2;padding:7px 0 0 20px;}
+.typelist li{width:200px;height:24px;}
+.typelist li a{color:#222;)}
+ .price{width:260px;height:24px;padding-left:20px;line-height:2;float:left;}
+.favourite{float:left;width:256px;height:410px;margin-left:6px;}
+.hot{float:right;width:598px;height:410px;}
+.hot div{float:left;width:294px;height:205px;margin-right:5px;}
+.hot p{float:left;width:196px;height:206px;margin-right:3px;}
+.hot .huamou{width:190px}
+
+/*-------------------------------------xingzuo----------------------------------------*/
+.xz{width:1180px;height:120px;overflow:hidden;margin-top:15px;}
+.xz li{float:left;height:120px;}
+
+
+/*-------------------------------------lover----------------------------------------*/
+.lover{width:1170px;height:415px;padding:5px;margin-top:15px;border:1px solid #ccc;}
+.couple{width:310px;height:412px;float:left;}
+.bag{width:310px;height:240px;background:#f9f9f9;margin-top:3px;}
+ .bag a:hover{color:#e13a68;}
+.travel{width:254px;height:412px;float:right;margin-left:5px;}
+
+/*-------------------------------------线下实体店数量----------------------------------------*/
+.shopNum{width:1180px;height:116px;background:url(../img/shopnumber.jpg);margin-top:15px;}
+
+/*-------------------------------------婚假百科----------------------------------------*/
+.baike{width:1180px;height:290px;margin-top:15px;margin-bottom:15px}
+.news{width:320px;height:290px;border:1px solid #ccc;float:left;margin-right:8px;}
+.news .subTitle{height:36px;line-height:36px;background:url(../img/subtitle.jpg);padding-left:14px;}
+.pic{width:310px;height:95px;margin:6px 0 10px 6px;}
+.article{width:312px;height:140px;margin:6px 0 0 6px;}
+.article li{width:280px;height:28px;line-height:2;list-style:disc;margin-left:20px;}
+.flower{float:right;}

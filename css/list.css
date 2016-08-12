@@ -1,0 +1,60 @@
+/*--------------------------------css语句~商品列表页面-------------------------------------------------*/
+
+.main{width:1180px;min-height: 200px;margin:0 auto;overflow:hidden;}
+/*----------------------------------main中版面设置---------------------------------------------------------*/
+.listWrap{width:100%;}
+.listBanner{width:100%;height:194px;background:url(../img/jietuo3.jpg) no-repeat ;}
+.listArea{width:1180px;height:194px;}
+
+.listIndex{width:1180px;height:26px;padding-left: 10px;line-height:26px;}
+.sidebar{width:242px;height:2340px;float:left;}
+.itemWrap{border:1px solid #333;margin-bottom:20px;}
+.sidebar  h3{height:36px;line-height:36px;background:url(../img/sbbg.jpg) ;font-size: 16px;padding-left: 10px;}
+.sidebar .type p{height:38px;line-height:38px;background:url(../img/plus.jpg) no-repeat left ;font-size: 16px;padding-left: 22px;}
+.sidebar  a:hover{color:#db3962;}
+.sidebar  .zjBook{background:url(../img/minus.jpg) no-repeat left ;}
+.type,.hot{padding-left: 20px;}
+.book{width:205px;height:102px;background: #fafafa;}
+.book li{float:left;width:96px;height:30px;line-height:30px;text-align: center;}
+.sidebar .hot p{height:38px;line-height:38px;font-size: 16px;text-align: center;}
+.sidebar .hot p span{color:#db3962;}
+.sidebar .hot img{border:1px solid #999;}
+.hot{padding:20px;}
+
+.systemshow img{margin:10px 0;}
+
+
+.productList{width:925px;height:2380px;float:right;}
+.topList{width:921px;height:180px;background:#f8f8f8;padding:10px 15px;border:1px solid #999;}
+.topList p{height:36px;border-bottom:1px dotted #999;padding-top:10px;}
+.topList p b {height:36px;float:left;text-align: center;color:#db3962;}
+.topList p span {float:right;margin-right:350px;}
+.topList p a{text-align: center;}
+.topList p a:hover{color:#db3962;}
+.page{width:580px;height:30px;padding-left:360px;line-height:30px;margin-top:10px;}
+.pageCode{width:400px;height:30px;float:right;text-align: center;}
+.pageCode li{float:left;margin-left:10px;}
+.pageCode li a{width:25px;height:30px;line-height:30px;float:left;border:1px solid #999;background: #eee;}
+.pageCode li a:hover{color:#db3962;}
+.pageCode .shenglue a{border:0;background: none;}
+.titleList{width:920px;height:38px;background:url(../img/productMenu.jpg);margin-top:18px;border:1px solid #999;margin-bottom:16px;}
+.titleList li{width:74px;float:left;background:url(../img/liTitle.jpg) no-repeat right bottom;}
+.titleList li a{width:74px;height:38px;line-height:38px;float:left;margin-left:10px;background:url(../img/arrow.jpg) no-repeat 25px center;}
+
+.picShow{width:920px;height:2040px;}
+.picShow li{width:274px;height:290px;float:left;border:1px solid #999;text-align: center;padding:0 15px;}
+.picShow li p{height:40px;line-height:40px;}
+.picShow li p a:hover{color:#db3962;}
+.picShow li p span{float:left;}
+.picShow li p b{float:right;}
+.picShow li p b a{color:#db3962;}
+/*-------------------------------------------------------------------------------------------*/
+
+
+
+
+
+
+
+
+

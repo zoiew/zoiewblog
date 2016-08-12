@@ -1,0 +1,300 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8" />
+		<title>【钻石|钻戒】戴欧妮钻石钻戒网为您提供最全的钻石、钻戒、裸钻等珠宝首饰,了解最新钻石价格和钻戒价格,个性DIY珠宝、钻石、钻戒、对戒定制,全国钻戒定制热线：4006-578-478""</title>
+		<!-------------------引入外部css样式----------------------------------->
+		<link type="text/css" rel="stylesheet" href="../css/reset.css"  />	
+		<link type="text/css" rel="stylesheet" href="../css/base.css"  />
+		<link type="text/css" rel="stylesheet" href="../css/common.css"  />
+		<link type="text/css" rel="stylesheet" href="../css/register.css"  />
+		<link type="text/css" rel="stylesheet" href="../css/style.css"  />
+		<link type="text/css" rel="stylesheet" href="../css/forjsjq.css"  />
+		<!-------------------引入jq类库等相关的文件----------------------------------->
+		<script src="../assets/jquery-1.12.0.js"></script>
+		
+		<!-------------------引入封装的函数等相关的文件----------------------------------->
+		<script src="../js/index.js"></script>
+		<script src="../js/register.js"></script>
+	</head>
+	<body>
+		<!-------------------topbar---------------------------------->
+		<div class="topbar">
+			<div class="wrap">
+				<div class="left">您好，欢迎光临戴欧妮珠宝网！&nbsp;&nbsp;&nbsp;&nbsp;<a href="login.html">登陆</a>&nbsp;/&nbsp;<a href="register.html">注册</a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;体验中心：<a href="#">广东.广州分店</a>&nbsp;&nbsp;&nbsp;&nbsp;<a href="#">切换</a></div>
+				<div class="right">
+					<a href="#" class="user">我的戴欧妮</a>
+					<a href="cart.html" class="cart">我的珠宝箱[<span class="number">0</span>]</a>
+					<a href="#" class="certify">正品认证</a>
+					<a href="#" class="yuyue">预约进店</a>
+					<a href="#" class="mobie">手机版</a>
+					<a href="#" class="weixin">微信</a>
+					<a href="#" class="weibo">微博</a>
+				</div>
+			</div>
+		</div>
+		<div class="header">
+			<h1><img src="../img/logo.png" alt="*" /></h1>
+			<div class="center">
+				<form method="post" action="">
+					<input type="text" id="keyword" placeholder="请输入型号或者名称"/>
+					<input type="button" value="搜索" class="submit"/>
+				</form>
+				<p><a href="#">永恒</a>&nbsp;&nbsp;&nbsp;<a href="#">浪漫</a>&nbsp;&nbsp;&nbsp;<a href="#">爱情</a>&nbsp;&nbsp;&nbsp;<a href="#">甜蜜</a></p>
+			</div>
+			<div class="code"><img src="../img/code.png" alt="*"/></div>
+		</div>
+		
+		<!----------------------------------------nav--------------------------------------------->
+		<div class="nav">
+			<div class="menu">
+				<ul class="topmenu">
+					<li class="allType">所有分类
+						<ul class="subMenu">
+							<li class="first"><a href="#" class="bold1">钻石</a><a href="#">30分</a><a href="#">50分</a><a href="#">80分</a><a href="#">1克拉</a><a href="#">钻石投资</a><a href="#">异形钻</a></li>
+							<li class="second"><a href="#" class="bold1">戒指</a><a href="#">钻石女戒</a><a href="#">钻石男戒</a><a href="#">情侣对戒</a><a href="#">财宝戒指</a><a href="#">珍珠戒指</a></li>
+							<li class="third"><a href="#" class="bold2">吊坠</a><a href="#">珍珠吊坠</a><a href="#">宝石吊坠</a><a href="#">钻石吊坠</a></li>
+							<li class="fourth"><a href="#" class="bold2">耳饰</a><a href="#">钻石耳饰</a><a href="#">珍珠耳饰</a><a href="#">彩宝耳饰</a></li>
+							<li class="fifth"><a href="#" class="bold">手链</a><a href="#">钻石手链</a></li>
+							<li class="sixth"><a href="#" class="bold">黄金</a><a href="#">投资金条</a><a href="#">黄金饰品</a></li>
+							<li class="seventh"><a href="#" class="bold">来图定制</a><a id="join" href="#">戴欧妮加盟咨询</a></li>
+						</ul>
+					</li>
+				</ul>
+			</div>
+			<ul class="navlist">
+				<li><a href="../index.html">首页</a></li>
+				<li><a href="#">裸钻</a></li>
+				<li><a href="list.html">钻戒定制</a></li>
+				<li><a href="#">定价产品</a></li>
+				<li><a href="#">黄金</a></li>
+				<li><a href="#">来图定制</a></li>
+				<li><a href="#">珠宝百科</a></li>
+			</ul>
+			<h2><img src="../img/phone.png" alt="*"/></h2>
+		</div>
+<!---------------------------------------------registerArea----------------------------------------------->				
+		<div class="registerWrap">
+			<div class="registerArea">
+				<h3><a href="login.html">会员登录</a></h3>
+				<form name="register" method="post" action="">
+					<p><input id ="mobieNum" type="text" value=""/></p>
+					<p class="checkCode"><input id ="checkCode" type="text" /><b></b><span></span></p>
+					<p><input id ="checkMsg" type="text" /><span></span><input id="getCheckCode" type="button" value="获取验证码" /></p>
+					<p><input id = "userPassword" type="password" /><span></span><b></b></p>
+					<p><input id = "checkPassword" type="password" /><span></span><b></b></p>
+					<p class="last"><input id = "confirm" type="checkbox" value="" /><span>我已阅读并同意《戴欧妮珠宝用户服务协议》</span></p>
+					<p class="last"><input id = "regBtn" type="button" value="" /></p>
+				</form>
+				<p class="min_bto_p1"></p>
+				<p class="min_bto_p2"></p>
+				<p class="min_bto_p3"></p>
+				<p class="min_bto_p4"></p>
+				<p class="min_bto_p5"></p>
+				<div class="loginPath">
+					<a href="#"><img src="../img/path1.jpg" alt="*" /></a>
+					<a href="#"><img src="../img/path2.jpg" alt="*" /></a>
+					<a href="#"><img src="../img/path3.jpg" alt="*" />	</a>		
+				</div>
+			</div>
+		</div>
+
+			
+		
+<!---------------------------------------------footer----------------------------------------------->				
+		<div class="footer">
+			
+			<div class="security"></div>
+			<div class="aboutWrap">
+				<ul class="aboutUs">
+					<li>
+						<h3 class="purchase"><a href="#">购买支付</a></h3>
+						<p><a href="#">新手教程</a></p>
+						<p><a href="#">订购流程</a></p>
+						<p><a href="#">支付常见问题</a></p>
+					</li>
+					<li>
+						<h3 class="goods"><a href="#">收获指南</a></h3>
+						<p><a href="#">新手教程</a></p>
+						<p><a href="#">订购流程</a></p>
+						<p><a href="#">支付常见问题</a></p>
+					</li>
+					<li>
+						<h3 class="service"><a href="#">售后服务</a></h3>
+						<p><a href="#">新手教程</a></p>
+						<p><a href="#">订购流程</a></p>
+						<p><a href="#">支付常见问题</a></p>
+					</li>
+					<li>
+						<h3 class="member"><a href="#">会员中心</a></h3>
+						<p><a href="#">新手教程</a></p>
+						<p><a href="#">订购流程</a></p>
+						<p><a href="#">支付常见问题</a></p>
+						
+					</li>
+					<li>
+						<h3 class="detail"><a href="#">关于戴欧妮</a></h3>
+						<p><a href="#">新手教程</a></p>
+						<p><a href="#">订购流程</a></p>
+						<p><a href="#">支付常见问题</a></p>
+					</li>
+					<li>
+						<h3 class="moreServer"><a href="#">更多服务</a></h3>
+						<p><a href="#">新手教程</a></p>
+						<p><a href="#">订购流程</a></p>
+						<p><a href="#">支付常见问题</a></p>
+					</li>
+					
+				</ul>
+			</div>
+			<div class="hotLineWrap">
+				<!---------北京----------------------->
+				<div class="hotLine">
+					<div class="right">
+						<h5>全国24小时服务热线</h5>
+						<h2>4006-578-478</h2>
+					</div>
+					<p>体验中心地址：天河区龙口西路1号保利中辰广场1702室 联系电话：4006-578-478</p>
+					<p>Copyright @ 2007-2014 深圳市戴欧妮网络科技有限公司 ALL Rights Reserved 经营许可证编号：粤B2-20080371 粤ICP备11058956号-1</p>
+				</div>
+				
+			</div>
+			<div class="linkWrap">
+				<ul class="link">
+					<li><a href="#"><img src="../img/link1.jpg" alt="*" /></a></li>
+					<li><a href="#"><img src="../img/link2.jpg" alt="*" /></a></li>
+					<li><a href="#"><img src="../img/link3.jpg" alt="*" /></a></li>
+					<li><a href="#"><img src="../img/link4.jpg" alt="*" /></a></li>
+					<li><a href="#"><img src="../img/link5.jpg" alt="*" /></a></li>
+					<li><a href="#"><img src="../img/link6.jpg" alt="*" /></a></li>
+					<li id="last"><a href="#"><img src="../img/link7.jpg" alt="*" /></a></li>
+				</ul>
+				
+			</div>
+			<div class="friendLinkWrap">
+				<ul class="friendLink">
+					<li><a href="#">钻石</a></li>
+					<li><a href="#">正佳养生网</a></li>
+					<li><a href="#">中关村商城</a></li>
+					<li><a href="#">裸钻</a></li>
+					<li><a href="#">钻石珠宝论坛</a></li>
+					<li><a href="#">麻豆网</a></li>
+					<li><a href="#">时尚生活网</a></li>
+					<li><a href="#">母亲节礼物</a></li>
+					<li><a href="#">中国美业网</a></li>
+					<li><a href="#">婚戒</a></li>
+					<li><a href="#">结婚</a></li>
+					<li><a href="#">新疆和田玉</a></li>
+					<li><a href="#">手礼网</a></li>
+					<li><a href="#">葡萄酒</a></li>
+					<li><a href="#">和田玉</a></li>
+					<li><a href="#">水晶</a></li>
+					<li><a href="#">礼品网</a></li>
+					<li><a href="#">股城网</a></li>
+					<li><a href="#">国美在线优惠券</a></li>
+					<li><a href="#">建材商城</a></li>
+					<li><a href="#">珂兰钻石</a></li>
+					<li><a href="#">保健养生</a></li>
+					<li><a href="#">钻戒网</a></li>
+					<li><a href="#">手表网</a></li>
+					<li><a href="#">IT新闻</a></li>
+					<li><a href="#">服装搭配</a></li>
+					<li><a href="#">礼物</a></li>
+					<li><a href="#">钻戒</a></li>
+					<li><a href="#">隐形眼镜</a></li>
+				</ul>
+				<p class="friendWeb">友情链接&nbsp;:</p>
+			</div>
+		</div>
+		
+		<ul class="purchaseConsult">
+			<li>
+				<a>
+					<img src="../img/consult1.jpg" alt="*" />
+				</a>
+			</li>
+			<li>
+				<a>
+					<img src="../img/consult2.jpg" alt="*" />
+				</a>
+			</li>
+			<li>
+				<a>
+					<img src="../img/consult3.jpg" alt="*" />
+				</a>
+			</li>
+			<li>
+				<a>
+					<img src="../img/consult4.jpg" alt="*" />
+				</a>
+			</li>
+			<li>
+				<a>
+					<img src="../img/consult5.jpg" alt="*" />
+				</a>
+			</li>
+			<li>
+				<a href="#">
+					<img src="../img/consult6.jpg" alt="*" />
+				</a>
+				<div class='popover'><img src="../img/tcewm.png" alt="*" /></div>
+			</li>
+		</ul>
+			<!---------------------------------------------js部分----------------------------------------------->				
+		<script>
+			$(function(){
+			
+				/*-------------------------------1.下拉菜单subMenu效果；-------------------------------------*/
+				var $allType = $('.allType');
+				var $subMenu = $('.subMenu');
+				var $liMenu = $subMenu.find('li');
+				//添加一个span
+				$('<span/>').addClass('minTitle').insertBefore($subMenu);
+				var $minTitle = $('.minTitle');
+				$allType.hover(function(){
+					$subMenu.stop(true).slideDown(200);
+					$minTitle.css('background-image','url(../img/subTitle2.jpg)');
+					console.log($minTitle);
+					console.log('show');
+				},function(){
+					$subMenu.stop(true).slideUp(800);
+					$minTitle.css('background-image','url(../img/subTitle1.jpg)');
+				})
+		/*-------------------------------2.城市实体店切换效果；-------------------------------------*/
+			
+				var $localCity = $('.localCity');	
+				var $cityList = $('.cityList').find('li');
+				console.log($localCity.length);
+				console.log($cityList.length);
+				var index = 0;
+				$.each($cityList,function(idx,city){
+					$('<span/>').addClass('cityUnderline').appendTo(city);
+					$localCity.eq(0).show().siblings().hide();
+					
+				})
+				//每个城市添加mouseover事件；
+				$cityList.on('mouseover',function(){
+					$(this).find('a').css('color','#e13a68');
+					$(this).find('span').css('display','block');
+					$(this).siblings().find('a').css('color','#222');
+					$(this).siblings().find('span').css('display','none');
+					index = $(this).index();
+					$localCity.eq(index).show().siblings().hide();
+				})
+					/*	右侧咨询栏的弹窗二维码	*/
+				var $ulTc = $('.purchaseConsult');
+				var $liTc = $ulTc.find('li');
+				var $ewm = $liTc.eq(4);
+				var $popover = $('.popover');
+				$ewm.on('mouseover',function(){
+					$popover.show();
+					
+				}).on('mouseout',function(){
+					$popover.hide();				
+				})
+
+		});	
+		</script>
+	
+	</body>
+</html>

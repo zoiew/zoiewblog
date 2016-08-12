@@ -1,0 +1,12 @@
+
+/*
+  用于JS或者JQ添加样式;
+ 创建ul,并且绝对定位;
+ */
+.minChangeBtn{width:180px;height:16px;position:absolute;left:540px;top:420px;z-index: 5;}
+.sonBtn{width:16px;height:16px;background:#656565;border-radius: 8px;float:left;margin-right:30px;}
+
+/*------------所有种类下拉菜单旁边的下拉箭头---------------------------*/
+.minTitle{position:absolute;left:180px;top:15px;display:block;width:13px;height:10px;background:url(../img/subTitle1.jpg) no-repeat;z-index:2;}
+/*-----------城市实体店的带箭头的下划线；------------------------------*/
+.cityUnderline{width:67px;height:12px;position:absolute;display:block;z-index: 2;background:url(../img/cityUnderLine.jpg) no-repeat;display:none;}

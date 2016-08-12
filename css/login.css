@@ -1,0 +1,31 @@
+/*--------------------------------css语句~注册页面-------------------------------------------------*/
+/*----------------------------------登陆框设置---------------------------------------------------------*/
+.loginWrap{width:100%;height:610px;background:url(../img/login.jpg) no-repeat -300px 0;}
+.loginArea{width:400px;height:516px;float:right;position:absolute;top:276px;right:130px;}
+.loginArea h3{height:40px;line-height:40px;font-size:14px;text-align:right;padding-right:5px;margin-bottom:36px;}
+.loginArea input{height:30px;}
+.loginArea p{height:55px;}
+.loginArea .last{height:30px;line-height:20px;margin-top:10px;}
+.loginArea .last span{width:80px;height:30px;line-height:30px;float:right;margin-right:140px;}
+.loginArea .last a{height:30px;line-height:30px;float:right;margin-right:30px;}
+#mobieLogin{width:150px;margin-left:153px;}
+
+#userPasswordLogin,#checkPassword{width:160px;margin-left:153px;}
+#confirm,#loginBtn{margin-left:60px;}
+#loginBtn{background:url(../img/menberLogin.jpg) no-repeat;width:277px;height:32px;}
+#getCheckCode{margin-left:20px;background:url(../img/btnBg.jpg) 0 3px repeat-x;}
+/*----------------------------------登陆方式设置---------------------------------------------------------*/
+.loginPath{width:340px;height:49px;margin-top:40px;padding:15px 0 0 60px;}
+.loginPath img{margin-left:30px;}
+
+/*----------------------------------验证的隐藏信息---------------------------------------------------------*/
+.loginArea .tishi1{width:300px;height:20px;position:absolute;left:60px;top:55px;color:#E13A68;}
+.loginArea .tishi2{width:300px;height:20px;position:absolute;left:60px;top:110px;color:#E13A68;}
+
+
+
+
+
+
+
+
